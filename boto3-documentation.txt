@@ -1,2 +1,2 @@
 https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
-we know for some of the services we've resource and client
+we know for some of the services we've resource and client, better prefer the client 

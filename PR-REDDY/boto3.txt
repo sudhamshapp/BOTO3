@@ -1,0 +1,17 @@
+In python we only interpret the code to be executable, but don't compile it
+
+sdk - https://www.google.com/search?q=sdk&oq=sdk&gs_lcrp=EgZjaHJvbWUyDggAEEUYORhDGLEDGIoFMgkIARAAGEMYigUyCQgCEAAYQxiKBTIMCAMQABhDGLEDGIoFMgoIBBAAGLEDGIAEMgkIBRAAGEMYigUyBwgGEAAYgAQyBggHEEUYPdIBBzg0MGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+Immuatble - Not possible to change the value once it's assigned to a variable(string, tuples, numbers, booleans)
+Mutable - vice-versa of Immuatble(lists, dictionaries and sets) - Memory address is static, that's the reason we can change the values
+
+Declaring a variable and assigning a value to it happens at the same time i.e., a = 10(a is a variable and 10 is a value, whatever the data we give it takes it)
+
+Traceback - in python terminology it can be called as an exception
+
+
+PR Reddy website - https://devopsrealtime.com/
+
+
+list may contain a dictionary and dictionary may contain a list
+
