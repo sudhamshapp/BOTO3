@@ -18,3 +18,4 @@ with open('practice.json', 'r') as data:
     file = json.load(data)
 print(type(file))
 print(file['email'])
+
