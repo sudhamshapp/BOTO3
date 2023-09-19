@@ -14,3 +14,8 @@
 # Data Parsing - yes(get the tags and check whether a specific tag is there or not), wait until ec2 is in stopped state
 # Task - check tags and stop the sever, if a specific tag/tag not found
 # validation - whether the task is fulfilles or not, i mean cross-checking 
+
+
+# input - Rest API url
+# Data parsing - yes
+# Task - Extract the list of email-ids

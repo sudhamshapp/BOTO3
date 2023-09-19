@@ -331,3 +331,19 @@ print(myfamily["child2"]["name"])
 # Using a for loop to iterate over key-value pairs
 # for key, value in my_dict.items():
 #     print(f'Key: {key}, Value: {value}')
+
+# a = {'name': 'sudhamsh', 'age': 30, 'city': 'new york'}
+# for each_value in a.values():
+#     print(each_value)
+     
+# a = {'name': 'sudhamsh', 'age': 30, 'city': 'new york'}
+# for each_value in a.keys():
+#     print(each_value)
+
+# a = {'name': 'sudhamsh', 'age': 30, 'city': 'new york'}
+# for each_value in enumerate(a):
+#     print(each_value)
+
+
+# for each_nuber in range(1, 101):
+#     print(each_nuber)

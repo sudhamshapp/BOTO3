@@ -1,19 +1,24 @@
 
 import boto3
+import logging
 client = boto3.client('ec2')
 response = client.describe_security_groups(GroupIds=['sg-0ae68ce8b581fcb79'])['SecurityGroups'][0]['IpPermissions']
 # print(type(response))
 # print(response)
 def checkrules():
-    for each_element in response:
-        # print(each_element['IpRanges'][0]['CidrIp'])
-        if each_element['IpRanges'][0]['CidrIp'] == '0.0.0.0/0': 
-            # here each_element is one inbound rule
-            client.revoke_security_group_ingress(GroupName = 'sid-sg',IpPermissions = [each_element])
-            print('yes')
-            # print(each_element)
-        else:
-            print('Rules are as per standards')
+    try:
+        for each_element in response:
+            # print(each_element['IpRanges'][0]['CidrIp'])
+            if each_element['IpRanges'][0]['CidrIp'] == '0.0.0.0/0': 
+                # here each_element is one inbound rule
+                client.revoke_security_group_ingress(GroupName = 'sid-sg',IpPermissions = [each_element])
+                print('yes')
+                # print(each_element)
+            else:
+                print('Rules are as per standards')
+    except Exception as error:
+        logging.error('Failed: Exception is below')
+        print(error)            
 def lambda_handler(event, context):
     checkrules()
 
