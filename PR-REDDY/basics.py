@@ -148,7 +148,7 @@ print(b)
 # print(a.keys())
 # print(a.values())
 # print(a.items())
-
+'''
 a = [1,2,3,4,5,6,7,8,9,10]
 b = [11,12,13,14,15,16,17,18,19,20]
 def sumof(var1):
@@ -159,4 +159,17 @@ def sumof(var1):
 sum_of_values_ofa = sumof(a)
 sum_of_values_ofb = sumof(b)
 print(sum_of_values_ofa)
-print(sum_of_values_ofb)    
+print(sum_of_values_ofb)
+'''
+
+
+# my_list = [1, 2, 3, 4, 5]
+
+# for item in my_list:
+#     print(item)
+
+
+my_dict = {"name": "John", "age": 30, "city": "New York"}
+
+for key, value in my_dict.items():
+    print(key, value)

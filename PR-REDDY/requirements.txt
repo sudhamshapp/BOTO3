@@ -1,0 +1,16 @@
+# https://bitbucket.org/dptrealtime/python/src/master/aws/
+# Removing the non-standard security groups with a inbound rule source of 0.0.0.0/0
+# Requirement: check the security group ingress rules and delete the rules if it's allowed from public - 0.0.0.0/0
+# Input - security-group - ids
+# Data Parsing - yes
+# Task - check and remove the rules
+
+
+# check the ec2 tags if 'Application' tag not found, then stop the ec2
+# stop the ec2 instance if a specific tag isn't attached 
+# there ane many use cases adding the tags to the ec2 instance, we can pull the billing
+
+# Input - All the instance IDs
+# Data Parsing - yes(get the tags and check whether a specific tag is there or not), wait until ec2 is in stopped state
+# Task - check tags and stop the sever, if a specific tag/tag not found
+# validation - whether the task is fulfilles or not, i mean cross-checking 
