@@ -19,3 +19,7 @@
 # input - Rest API url
 # Data parsing - yes
 # Task - Extract the list of email-ids
+
+# in this particular weekend a maintainance is scheduled you need restart some specific applications
+# giving the input(lis of applications that needs to be restarted as a json file) from github, python has the logic and systems are sheduled for a restart(the application may be runnung as a pod in kubernetes(re-deploy my application because of configurational changes), maybe  as  a docker container)
+
