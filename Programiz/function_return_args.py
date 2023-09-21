@@ -18,10 +18,11 @@ main()
 
 
 def multi_num(value):
-    result = value*10
-    return result
+    # result = value*10
+    # return result
+    return value*10
 def main():
-    output = multi_num(10)
+    output = multi_num(10) # the value*10 is replaced by the value returned by the function multi_num
     print(f'The value of a is {output}')
     return None
 main()

@@ -19,5 +19,5 @@ if __name__ == "__main__":
 import script1
 print('This is from script2: ', __name__)
 '''
-# what's the advantage of writing this means, when we're trying to import this code into another scripts at that time, you're avoiding the execution of main block
 # in case, if we won't write this logic, unnecessarily you're gonna to execute your logic in another scripts 
+# when someone imports your code, at that time, you can hide your main logic, then can use your main function in their functions
